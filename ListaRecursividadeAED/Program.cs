@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,28 +20,25 @@ namespace ListaRecursividadeAED
             Console.Write(numeroDecimal%2);
 
         }
-        static void Main(string[] args)
+        static int SomaIntervalo(int m, int n)
         {
-            /*Implemente um método recursivo para converter um número decimal para binário (isto é, converter um número do
-            Sistema Decimal para o Sistema Binário). O método deve receber como parâmetro um número decimal positivo e
-            deve imprimir na tela esse número convertido para binário (Obs: o método não deve ter retorno, deve ser void).
-            Uma maneira simples de resolver o problema é dividir o número decimal sucessivamente por 2 e pegar o resto da
-            i-ésima divisão, da direita para esquerda.
-            Exemplo1 - Para o número 12 temos:
-            12/2 = 6, resto 0
-            6/2 = 3, resto 0
-            3/2 = 1, resto 1
-            1/2 = 0, resto 1
-            Portanto, o número 12 em binário é 1100
-            Exemplo 2 - Para o número 8 temos:
-            8/2 = 4, resto 0
-            4/2 = 2, resto 0
-            2/2 = 1, resto 0
-            1/2 = 0, resto 1
-            Portanto, o número 8 em binário é 1000*/
+            if (m == n)
+            {
+                return m;
+            }
+            else
+            {
+                return SomaIntervalo(m, n - 1) + n;
+            }
+        }
+        static void Main(string[] args)
+        {         
+            //Console.Write("Digite um número decimal: ");
+            //int numero = int.Parse(Console.ReadLine());
+            //ConverteDecimalEmBinario(numero);
 
-            int numero = int.Parse(Console.ReadLine());
-            ConverteDecimalEmBinario(numero);
+            // Exemplo de uso da função SomaIntervalo
+            // Console.WriteLine(SomaIntervalo(1, 10));
 
             Console.ReadKey();
         }
