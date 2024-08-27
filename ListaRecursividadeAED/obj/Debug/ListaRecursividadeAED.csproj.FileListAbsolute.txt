@@ -1,0 +1,7 @@
+C:\Users\matheus.filipe\Documents\PUC Minas\2024.2\AED\ListaRecursividadeAED\ListaRecursividadeAED\bin\Debug\ListaRecursividadeAED.exe.config
+C:\Users\matheus.filipe\Documents\PUC Minas\2024.2\AED\ListaRecursividadeAED\ListaRecursividadeAED\bin\Debug\ListaRecursividadeAED.exe
+C:\Users\matheus.filipe\Documents\PUC Minas\2024.2\AED\ListaRecursividadeAED\ListaRecursividadeAED\bin\Debug\ListaRecursividadeAED.pdb
+C:\Users\matheus.filipe\Documents\PUC Minas\2024.2\AED\ListaRecursividadeAED\ListaRecursividadeAED\obj\Debug\ListaRecursividadeAED.csproj.AssemblyReference.cache
+C:\Users\matheus.filipe\Documents\PUC Minas\2024.2\AED\ListaRecursividadeAED\ListaRecursividadeAED\obj\Debug\ListaRecursividadeAED.csproj.CoreCompileInputs.cache
+C:\Users\matheus.filipe\Documents\PUC Minas\2024.2\AED\ListaRecursividadeAED\ListaRecursividadeAED\obj\Debug\ListaRecursividadeAED.exe
+C:\Users\matheus.filipe\Documents\PUC Minas\2024.2\AED\ListaRecursividadeAED\ListaRecursividadeAED\obj\Debug\ListaRecursividadeAED.pdb
